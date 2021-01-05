@@ -21,7 +21,25 @@ export const Projects = () => {
                 </Header>
                 <Card.Group centered>
                     <Card 
-                        header='Coming soon!'
+                        image="/assets/portfolio/stock-app.PNG"
+                        link
+                        header='Stock Lookup'
+                        href="https://kylekenney.azurewebsites.net/stocks"
+                        description='A simple application that looks up stocks by their symbol.'
+                    />
+                    <Card 
+                        image="/assets/portfolio/sp500-app.PNG"
+                        link
+                        header='SP500'
+                        href="https://kylekenney.azurewebsites.net/sp500"
+                        description='An in depth look at the sp500 and the companies that are a part of it.'
+                    />
+                    <Card 
+                        image="/assets/portfolio/Coronavirus.PNG"
+                        link
+                        header='US Coronavirus Cases'
+                        href="https://kylekenney.azurewebsites.net/corona"
+                        description='Page Displaying Coronavirus data within the US'
                     />
                 </Card.Group>
                 
