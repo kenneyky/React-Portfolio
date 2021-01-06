@@ -35,7 +35,7 @@ export const Projects = () => {
                         description='An in depth look at the sp500 and the companies that are a part of it.'
                     />
                     <Card 
-                        image="/assets/portfolio/Coronavirus.PNG"
+                        image="/assets/portfolio/Coronavirus.png"
                         link
                         header='US Coronavirus Cases'
                         href="https://kylekenney.azurewebsites.net/corona"
